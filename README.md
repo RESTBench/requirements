@@ -12,7 +12,7 @@ All CRUD implementations must implement:
 * At least one *Update* endpoint must be available via a *PUT* request
 * At least one *Delete* endpoint must be available via a *DELETE* request
 
-The following verb' implementations are optional, but if done, should behave as follows:
+The following verb implementations are optional, but if done, should behave as follows:
 * *HEAD*: ???
 * *OPTIONS*: ???
 * *PATCH*: allow for partial content update - *PUT* is used to completely replace the endpoint contents
