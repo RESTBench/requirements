@@ -45,7 +45,16 @@ A list of some basic endpoints that must be implemented:
 * `DELETE /contacts/:id/address/:addr_id`
 
 # Responses
-[TBD](https://github.com/RESTBench/requirements/issues/1)
+All responses must be structured accordingly with the following pattern:
+* For 2XX return codes:
+
+    For a single entity: `{ data: {...} }` 
+
+    For multiple entities: `{ data: [{...}, ..., {...}] }`
+
+* For 4XX and 5XX return codes:
+
+    `{ error: { description: "...", ...} }`
 
 # Documentation
 [TBD](https://github.com/RESTBench/requirements/issues/2)
