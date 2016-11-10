@@ -22,6 +22,8 @@ All implementations must use only the framework's tool to access the database.
 
 Creating the tables, seeding data, queries etc. all must be as agnostic as possible.
 
+Check [this file](https://github.com/RESTBench/requirements/blob/models-relationships/MODELS.md) for more information regarding the structure for the tables.
+
 # Endpoints
 A list of some basic endpoints that must be implemented:
 
